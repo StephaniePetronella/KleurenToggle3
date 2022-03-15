@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kleurentoggle</title>
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+
+  <body>
+    <img src="hamburger_menu.png" onclick="toggleOn()" />
+    <nav>
+      <ul>
+        <li class="home" onclick="backgroundHome()">
+          home
+          <input type="radio" name="radioButton" />
+        </li>
+        <li class="red" onclick="backgroundRed()">
+          red
+          <input type="radio" name="radioButton" />
+        </li>
+        <li class="orange" onclick="backgroundOrange()">
+          orange
+          <input type="radio" name="radioButton" />
+        </li>
+        <li class="purple" onclick="backgroundPurple()">
+          purple
+          <input type="radio" name="radioButton" />
+        </li>
+        <li class="green" onclick="backgroundGreen()">
+          green
+          <input type="radio" name="radioButton" />
+        </li>
+      </ul>
+    </nav>
+    <p></p>
+  </body>
+</html>
